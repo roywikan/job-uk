@@ -1,0 +1,134 @@
+<style>
+    /* Reset some default styles */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: #f4f4f4;
+        color: #333;
+    }
+
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+    header img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+        margin: 10px 0;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    main {
+        padding: 20px;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    section {
+        margin-bottom: 30px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+    p, blockquote {
+        font-size: 1rem;
+        color: #555;
+    }
+
+    a {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    /* Mobile First Styles */
+    @media (max-width: 768px) {
+        header img {
+            width: 80%;
+        }
+
+        header h1 {
+            font-size: 1.5rem;
+        }
+
+        header p {
+            font-size: 0.9rem;
+        }
+
+        main {
+            padding: 10px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 1.3rem;
+        }
+
+        p, blockquote {
+            font-size: 0.9rem;
+        }
+
+        footer p {
+            font-size: 0.8rem;
+        }
+    }
+
+    /* Tablet and Larger Screens */
+    @media (min-width: 769px) {
+        main {
+            padding: 40px;
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+        }
+
+        p, blockquote {
+            font-size: 1.1rem;
+        }
+
+        footer p {
+            font-size: 1rem;
+        }
+    }
+</style>
