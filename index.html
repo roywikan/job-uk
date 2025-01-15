@@ -4,7 +4,145 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UK Jobs</title>
-    <link rel="stylesheet" href="index.css">
+    <style>
+      
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        background-color: #f5f5f5;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .top-menu {
+        background: #2563eb;
+        padding: 1rem;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+      }
+      
+      .menu-item {
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+        padding: 0.5rem 1rem;
+      }
+      
+      header {
+        text-align: center;
+        padding: 2rem 1rem;
+        background: #f8fafc;
+      }
+      
+      .jobs-grid {
+        display: grid;
+        gap: 1.5rem;
+        padding: 1.5rem;
+        max-width: 1200px;
+        margin: 0 auto;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      }
+      
+      .job-card {
+        background: white;
+        border: 1px solid #e2e8f0;
+        border-radius: 0.5rem;
+        padding: 1.5rem;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        transition: transform 0.2s;
+      }
+      
+      .job-card:hover {
+        transform: translateY(-2px);
+      }
+      
+      .job-title-link {
+        color: #1e293b;
+        text-decoration: none;
+        font-weight: 600;
+      }
+      
+      .job-title-link:hover {
+        color: #2563eb;
+      }
+      
+      .company {
+        color: #64748b;
+        margin: 0.5rem 0;
+        font-weight: 500;
+      }
+      
+      .location {
+        color: #94a3b8;
+        margin: 0.5rem 0;
+      }
+      
+      .updated {
+        color: #888;
+        font-size: 0.9em;
+        margin: 0.5rem 0;
+      }
+      
+      .hashtags {
+        color: #2563eb;
+        font-size: 0.9em;
+        margin: 0.5rem 0;
+        word-wrap: break-word;
+      }
+      
+      .pagination {
+        display: flex;
+        justify-content: center;
+        gap: 0.5rem;
+        padding: 2rem;
+        background: #f8fafc;
+      }
+      
+      .page-link {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 2rem;
+        height: 2rem;
+        padding: 0 0.5rem;
+        border: 1px solid #e2e8f0;
+        border-radius: 0.25rem;
+        color: #64748b;
+        text-decoration: none;
+      }
+      
+      .page-link:hover,
+      .page-link.active {
+        background: #2563eb;
+        color: white;
+      }
+      
+      .site-footer {
+        background: #f8fafc;
+        padding: 1.5rem;
+        margin-top: 2rem;
+        border-top: 1px solid #e2e8f0;
+        text-align: center;
+      }
+      
+      .footer-link {
+        color: #2563eb;
+        text-decoration: none;
+      }
+      
+      .footer-link:hover {
+        text-decoration: underline;
+      }
+      
+      @media (max-width: 768px) {
+        .jobs-grid {
+          grid-template-columns: 1fr;
+          padding: 1rem;
+        }
+      }
+    </style>
 </head>
 <body>
     <nav class="top-menu">
@@ -16,87 +154,99 @@
     <main class="jobs-grid">
         
     <div class="job-card">
-      <h3>Spend Network - Sales Development Representative, £40k OTE, Remote - United Kingdom - United Kingdom</h3>
+      <h3><a href="/work-from-home-sky-outbound-telesales-agent-elizabeth-michael-associates.html" title="Spend Network - Sales Development Representative, £40k OTE, Remote - United Kingdom - United Kingdom" class="job-title-link">Spend Network - Sales Development Representative, £40k OTE, Remote - United Kingdom - United Kingdom</a></h3>
       <p class="company">Spend Network</p>
       <p class="location">United Kingdom</p>
-      <a href="work-from-home-sky-outbound-telesales-agent-elizabeth-michael-associates.html" class="view-job">View Details</a>
+      <p class="updated"><time datetime="2025-01-15T10:15:29.853Z">15/01/2025, 10:15 UTC</time></p>
+      <p class="hashtags"></p>
     </div>
   
     <div class="job-card">
-      <h3>PHS Group Limited - Washroom Service Driver - Huntingdon, United Kingdom</h3>
+      <h3><a href="/washroom-service-driver-phs-group-limited.html" title="PHS Group Limited - Washroom Service Driver - Huntingdon, United Kingdom" class="job-title-link">PHS Group Limited - Washroom Service Driver - Huntingdon, United Kingdom</a></h3>
       <p class="company">PHS Group Limited</p>
       <p class="location">Huntingdon, United Kingdom</p>
-      <a href="washroom-service-driver-phs-group-limited.html" class="view-job">View Details</a>
+      <p class="updated"><time datetime="2025-01-15T10:15:29.854Z">15/01/2025, 10:15 UTC</time></p>
+      <p class="hashtags"></p>
     </div>
   
     <div class="job-card">
-      <h3>Virtual Assistant - Work Remote Worldwide - No Experience Needed - The Other House</h3>
+      <h3><a href="/virtual-assistant-work-remote-worldwide-no-experience-needed-the-other-house.html" title="Virtual Assistant - Work Remote Worldwide - No Experience Needed - The Other House" class="job-title-link">Virtual Assistant - Work Remote Worldwide - No Experience Needed - The Other House</a></h3>
       <p class="company">The Other House</p>
       <p class="location">Ambleside, United Kingdom</p>
-      <a href="virtual-assistant-work-remote-worldwide-no-experience-needed-the-other-house.html" class="view-job">View Details</a>
+      <p class="updated"><time datetime="2025-01-15T10:15:29.854Z">15/01/2025, 10:15 UTC</time></p>
+      <p class="hashtags"></p>
     </div>
   
     <div class="job-card">
-      <h3>U.S. Marine Corps - Guitar - Valley Glen, California, United States</h3>
+      <h3><a href="/U.S. Marine Corps - Guitar gg - Valley Glen, California, United States.html" title="U.S. Marine Corps - Guitar - Valley Glen, California, United States" class="job-title-link">U.S. Marine Corps - Guitar - Valley Glen, California, United States</a></h3>
       <p class="company">U. S. Marine Corps</p>
       <p class="location">Valley Glen, California, United States</p>
-      <a href="U.S. Marine Corps - Guitar gg - Valley Glen, California, United States.html" class="view-job">View Details</a>
+      <p class="updated"><time datetime="2025-01-15T10:15:29.855Z">15/01/2025, 10:15 UTC</time></p>
+      <p class="hashtags"></p>
     </div>
   
     <div class="job-card">
-      <h3>KPMG UK - Transformation Change Manager - United Kingdom</h3>
+      <h3><a href="/transformation-change-manager-kpmg-uk.html" title="KPMG UK - Transformation Change Manager - United Kingdom" class="job-title-link">KPMG UK - Transformation Change Manager - United Kingdom</a></h3>
       <p class="company">KPMG UK</p>
       <p class="location">United Kingdom</p>
-      <a href="transformation-change-manager-kpmg-uk.html" class="view-job">View Details</a>
+      <p class="updated"><time datetime="2025-01-15T10:15:29.855Z">15/01/2025, 10:15 UTC</time></p>
+      <p class="hashtags"></p>
     </div>
   
     <div class="job-card">
-      <h3>The Migraine Trust - Support Services Advisor</h3>
+      <h3><a href="/support-services-advisor-the-migraine-trust.html" title="The Migraine Trust - Support Services Advisor" class="job-title-link">The Migraine Trust - Support Services Advisor</a></h3>
       <p class="company">The Migraine Trust</p>
       <p class="location">via Charity Job</p>
-      <a href="support-services-advisor-the-migraine-trust.html" class="view-job">View Details</a>
+      <p class="updated"><time datetime="2025-01-15T10:15:29.855Z">15/01/2025, 10:15 UTC</time></p>
+      <p class="hashtags"></p>
     </div>
   
     <div class="job-card">
-      <h3>Malvern International - Summer School Team Activity Leader - London, United Kingdom</h3>
+      <h3><a href="/summer-school-team-activity-leader-malvern-international.html" title="Malvern International - Summer School Team Activity Leader - London, United Kingdom" class="job-title-link">Malvern International - Summer School Team Activity Leader - London, United Kingdom</a></h3>
       <p class="company">Malvern International</p>
       <p class="location">London, United Kingdom</p>
-      <a href="summer-school-team-activity-leader-malvern-international.html" class="view-job">View Details</a>
+      <p class="updated"><time datetime="2025-01-15T10:15:29.855Z">15/01/2025, 10:15 UTC</time></p>
+      <p class="hashtags"></p>
     </div>
   
     <div class="job-card">
-      <h3>L‘OREAL - Spring Insights Week 2025 - United Kingdom</h3>
+      <h3><a href="/spring-insights-week-2025-l-oreal.html" title="L‘OREAL - Spring Insights Week 2025 - United Kingdom" class="job-title-link">L‘OREAL - Spring Insights Week 2025 - United Kingdom</a></h3>
       <p class="company">L‘OREAL</p>
       <p class="location">United Kingdom</p>
-      <a href="spring-insights-week-2025-l-oreal.html" class="view-job">View Details</a>
+      <p class="updated"><time datetime="2025-01-15T10:15:29.855Z">15/01/2025, 10:15 UTC</time></p>
+      <p class="hashtags"></p>
     </div>
   
     <div class="job-card">
-      <h3>Fast - Software Engineer, Machine Learning & Data - Backend - via Career Vault</h3>
+      <h3><a href="/software-engineer-machine-learning-data-backend-fast.html" title="Fast - Software Engineer, Machine Learning & Data - Backend - via Career Vault" class="job-title-link">Fast - Software Engineer, Machine Learning & Data - Backend - via Career Vault</a></h3>
       <p class="company">Fast</p>
       <p class="location">United Kingdom</p>
-      <a href="software-engineer-machine-learning-data-backend-fast.html" class="view-job">View Details</a>
+      <p class="updated"><time datetime="2025-01-15T10:15:29.855Z">15/01/2025, 10:15 UTC</time></p>
+      <p class="hashtags"></p>
     </div>
   
     <div class="job-card">
-      <h3>Senior Manager, Supply Chain - PerchPeek</h3>
+      <h3><a href="/senior-manager-supply-chain-perchpeek.html" title="Senior Manager, Supply Chain - PerchPeek" class="job-title-link">Senior Manager, Supply Chain - PerchPeek</a></h3>
       <p class="company">PerchPeek</p>
       <p class="location">London, United Kingdom</p>
-      <a href="senior-manager-supply-chain-perchpeek.html" class="view-job">View Details</a>
+      <p class="updated"><time datetime="2025-01-15T10:15:29.855Z">15/01/2025, 10:15 UTC</time></p>
+      <p class="hashtags"></p>
     </div>
   
     <div class="job-card">
-      <h3>Spend Network - Sales Development Representative, £40k OTE, Remote - United Kingdom - United Kingdom</h3>
+      <h3><a href="/sales-development-representative-40k-ote-remote-spend-network.html" title="Spend Network - Sales Development Representative, £40k OTE, Remote - United Kingdom - United Kingdom" class="job-title-link">Spend Network - Sales Development Representative, £40k OTE, Remote - United Kingdom - United Kingdom</a></h3>
       <p class="company">Spend Network</p>
       <p class="location">United Kingdom</p>
-      <a href="sales-development-representative-40k-ote-remote-spend-network.html" class="view-job">View Details</a>
+      <p class="updated"><time datetime="2025-01-15T10:15:29.855Z">15/01/2025, 10:15 UTC</time></p>
+      <p class="hashtags"></p>
     </div>
   
     <div class="job-card">
-      <h3>Best Days Travel - Remote Travel Customer Service Specialist - United Kingdom</h3>
+      <h3><a href="/remote-travel-customer-service-specialist-best-days-travel.html" title="Best Days Travel - Remote Travel Customer Service Specialist - United Kingdom" class="job-title-link">Best Days Travel - Remote Travel Customer Service Specialist - United Kingdom</a></h3>
       <p class="company">Best Days Travel</p>
       <p class="location">United Kingdom</p>
-      <a href="remote-travel-customer-service-specialist-best-days-travel.html" class="view-job">View Details</a>
+      <p class="updated"><time datetime="2025-01-15T10:15:29.855Z">15/01/2025, 10:15 UTC</time></p>
+      <p class="hashtags"></p>
     </div>
   
     </main>
